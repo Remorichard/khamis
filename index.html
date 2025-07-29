@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/3900f75b6b.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="image/logoo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#service">Service</a></li>                        
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Sales Manager/Financial Analyst/Accountant</p>
+                    <h1>Hi I'm <span>Emmanuel Khamis</span>  <br> From South Sudan <br> A finance Analyst <br> with innovative flair!</h1>
+                </div>
+            </div>
+        </div>
+        <!-------------About------------>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="image/emma3.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            Hello, I'm Emmanuel Khamis James Jambo, a Commerce graduate with a major in Accounting. 
+                            I have a strong foundation in financial reporting, auditing, and budgeting.
+                            During my studies and internships, I developed practical skills in analying financial data,
+                            preparing reports, and using accounting software. I'm passionate about accuracy,
+                            transparency, and helping organizations make informed financial decisions. 
+                            This portfolio highlights my academic background, practical experience, and commitment
+                            to excellence in finance and accounting.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Financial Reporting & Analysis</span><br>Present and interpret finances</li>
+                                <li><span>Bugeting & Forecasting</span><br>Plan and predicting spending</li>
+                                <li><span>Bookkeeping & Journal Entries</span><br>Record daily transactions</li>
+                                <li><span>Tax Preparation &compliance</span><br>File accurate tax reports</li>
+                                <li><span>Microsoft Excel</span><br>Analyze data efficiently</li>
+                                <li><span>Problem Solving & Data Accuracy</span><br>Solve financial issues precisely</li>
+                                <li><span>Financial Statement Interpretation</span><br>understand company performance</li>
+                                <li><span>Attention to Details</span><br>Spot and fix errors</li>                           
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2017-2025 currently</span><br> Accountant and Assistant Manager at Ace Club  Egypt<br></li>
+                                <li><span>2024</span><br>General Accounts(Manual& Computerized) at Continue Academy Egypt</li>
+                                <li><span>2024</span><br>Professional Financial Accountant(PFA) at Continue Academy Egypt</li>
+                                <li><span>2023</span><br>Human Resource Diploma at Emirates Academy Egypt</li>
+                                <li><span>2023</span><br>Soft skills Diploma at Emirates Academy Egypt</li>
+                                <li><span>03.2023-05.2024</span><br>Training ICDL V5 Modules OS Windows 10&MS at Emirates Academy Egypt</li>
+                                <li><span>2022-2025</span><br>First Aid & CPR at GTSC </li>
+                                <li><span>2022</span><br>IT Windows-word-Excel-Access-Internet&Outlook at Russian Culture Center Egypt</li>
+                                <li><span>2021</span><br>African League of Young Master Program at Bibliotheca Alexandrina Egypt</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2015-2021</span><br>Bachelor of Commerce degree Major Accounting</li>
+                                <li><span>2007-2010</span><br>Secondary School Certificate</li>
+                                <li><span>1999-2006</span><br>Primary School</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------------services----------------->
+        <div id="service">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <h2>Finacial Analyst</h2>
+                        <p>
+                            Financial Planning & Forecasting - Analyzing market trends and company data to project future performance.
+                            Data-Driven Decision Making - Providing insights from financial reports to support strategic planning.
+                            Investment Analysis - Assessing risks and returns for business investments.
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <h2>Accountant</h2>
+                        <p>
+                            Bookkeeping & Ledger Management - Maintaining accurate daily records and journals.
+                            Tax Preparation & Compliance - Ensuring tax returns are filed correctly and on time.
+                            Financial Reporting - Creating balance sheets, income statements, and cash flow reports.
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <h2>Sales Manager</h2>
+                        <p>
+                            Sales Strategy Development - Creating and executing sales plans to meet targets.
+                            Team Leadership - Managing and motivating sales teams for high performance.
+                            Client Relationship Management - Building and maintaining strong customer connections.
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------contact---------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> emja2019@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> +201122797275</p>
+                        <div class="social-icons">
+                            <a href="https://facbook.com/emmanuel.khamis.12"><i class="fa-brands fa-facebook"></i></a>
+                            
+                        </div>
+                        <a href="image/emmacv.docx"  download class="btn bnt2">Download CV</a>
+                    </div>
+                    <div class="contact-right" >
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copy right @ Emmanuel khamis. made by Richard Remo</p>
+            </div>
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+            
+        </script>
+        <script>
+            var sidemeu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemeu.style.right = "0";
+            }
+            function closemenu(){
+                sidemeu.style.right = "-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxzNwOcplij5rVQARRK-sRjQAGlGi6OW7dN5dln0EkuXwdF6iqHHjgrPXg3NNI0id5qmg/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msq.innerHTML = "message sent successfully"
+                    setTimeout(function(){
+                        msq.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+    </body>
+</html>
